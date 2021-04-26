@@ -18,7 +18,7 @@
 
 .heading {
     color: white;
-    font-size: 5vmin;
+    font-size: calc(2.5rem + 2vmin);
     font-family: meno-banner,serif;
     font-weight: 700;
     font-style: normal;
@@ -36,7 +36,7 @@
 .button {
     padding: 1.2vmin 2.2vmin;
     color: white;
-    font-size: 3vmin;
+    font-size: calc(1rem + 1vmin);
     font-family: meno-banner,serif;
     font-weight: 700;
     font-style: normal;
