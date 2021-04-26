@@ -14,7 +14,7 @@ class App extends React.Component {
     }
 
     fetchAdvice = () => {
-        axios.get("https://api.adviceslip.com/advice")
+        axios.get(`https://api.adviceslip.com/advice?timestamp=${new Date().getTime()}`) // added timestamp to API url to disable browser cache for the request
         .then ((response) => {
             const { advice } = response.data.slip; // this destructuring works like const advice = response.data.slip.advice;
                 console.log(advice);
