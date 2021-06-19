@@ -44,4 +44,9 @@
     border-radius: 1000rem;
     border:  0.1rem solid white;
     cursor: pointer;
+    transition: background-color, color 200ms ease-in-out;
+}
+.button:hover {
+    color: hsl(9, 44%, 69%);
+    background-color: white;
 }
